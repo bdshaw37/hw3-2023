@@ -1,11 +1,10 @@
 body{
-    font-family:  Ariel, Verdana;
+    font-family:  Arial, Verdana;
     background-color: #000000;
     color: #ffffff;
     margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
-
     margin-bottom: 0px;
 }
 
@@ -53,6 +52,8 @@ div{
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
+
+    border: solid #ffffff 2px; 
     border-bottom: 2px;
     border-top: 5px;
     border-top: 0px;
@@ -62,13 +63,14 @@ div{
 .blue{
     background-color: #0000ff;
     text-align: left;
-    margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
-    border-left: 0px;
-    border-bottom: 0px;
     color: #C4C4C4;
-    border-color: #ffffff;
+
+    margin-right: 50px;
+    border: solid #ffffff 2px; 
+    border-top-width: 2px;
+    border-right-width: 5px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
 }
 
 .blue h2{
@@ -80,11 +82,12 @@ div{
     text-align: right;
     margin-left: 50px;
 
-    border-bottom: 2px;
-    border-left: 5px;
+    border: solid #ffffff 2px; 
+    border-bottom-width: 2px;
+    border-left-width: 5px;
+    border-top-width: 0px;
+    border-right-width: 0px;
 
-    border-top: 0px;
-    border-right: 0px;
     color: #707070
     
 }
@@ -92,11 +95,12 @@ div{
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-right: 5px;
-    border-top: 2px;
+    border: solid #ffffff 2px; 
+    border-right-width: 5px;
+    border-top-width: 2px;
+    border-left-width: 0px;
+    border-bottom-width: 0px;
 
-    border-left: 0px;
-    border-bottom: 0px;
 }
 
 footer{
