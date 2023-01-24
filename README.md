@@ -1,2 +1,1 @@
-# hw3_simple_css
-Starter code for simple css assignment
+# 339 Week 3 in class CSS practice
